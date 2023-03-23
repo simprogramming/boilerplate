@@ -4,6 +4,14 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+# Extra stuffs
+.DS_Store
+.idea
+.vscode
+.env
+.coverage
+spec/examples.txt
+
 # Ignore bundler config.
 /.bundle
 
