@@ -95,6 +95,11 @@ GEM
     docile (1.4.0)
     erubi (1.12.0)
     erubis (2.7.0)
+    factory_bot (6.2.1)
+      activesupport (>= 5.0.0)
+    factory_bot_rails (6.2.0)
+      factory_bot (~> 6.2.0)
+      railties (>= 5.0.0)
     ffi (1.15.5)
     globalid (1.1.0)
       activesupport (>= 5.0)
@@ -237,6 +242,8 @@ GEM
       rubocop-packaging (~> 0.5)
       rubocop-performance (~> 1.11)
       rubocop-rails (~> 2.0)
+    rubocop-rspec (2.16.0)
+      rubocop (~> 1.33)
     ruby-progressbar (1.11.0)
     ruby_parser (3.20.0)
       sexp_processor (~> 4.16)
@@ -311,6 +318,7 @@ DEPENDENCIES
   capybara
   cssbundling-rails
   debug
+  factory_bot_rails
   haml-rails (~> 2.0)
   html2haml
   jsbundling-rails
@@ -321,6 +329,7 @@ DEPENDENCIES
   rubocop
   rubocop-performance
   rubocop-rails_config
+  rubocop-rspec
   sassc-rails
   selenium-webdriver
   simplecov
