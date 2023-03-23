@@ -7,6 +7,7 @@
 # Extra stuffs
 .DS_Store
 .idea/
+.idea/boilerplate.iml
 .vscode
 .env
 .coverage
