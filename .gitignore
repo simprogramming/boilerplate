@@ -6,7 +6,7 @@
 
 # Extra stuffs
 .DS_Store
-.idea
+.idea/
 .vscode
 .env
 .coverage
