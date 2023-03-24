@@ -89,3 +89,4 @@ gem "rails-i18n", "~> 7.0.0"
 gem "i18n-tasks"
 gem "translate_enum"
 gem 'draper'
+gem 'devise'
