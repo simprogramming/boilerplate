@@ -1,0 +1,52 @@
+---
+en:
+  activerecord:
+    attributes:
+      page:
+        identifiers: Identifiers
+      page_locale:
+        h1: H1 title
+        locale: Language
+        locale_list:
+          en: English
+          fr: French
+        meta_description: Meta description
+        og_image: OG Image
+        page_title: Page title
+      user:
+        first_name: First Name
+        last_name: Last Name
+        password: Password
+        password_confirmation: Password confirmation
+        remember_me: Remember me
+        role_list:
+          admin: Admin
+          master: Master
+          user: User
+    models:
+      page:
+        one: Page
+        other: Pages
+      user:
+        one: User
+        other: Users
+    notices:
+      default:
+        archived_successfully: "%{model} archived successfully"
+        created_successfully: "%{model} created successfully"
+        destroyed_successfully: "%{model} destroyed successfully"
+        restored_successfully: "%{model} restored successfully"
+        updated_successfully: "%{model} updated successfully"
+  attributes:
+    created_at: Created at
+    email: Email
+    id: Id
+    name: Name
+    updated_at: Updated at
+  will_paginate:
+    page_entries_info:
+      multi_page_html: Displaying of %{from} - %{to} on %{count} %{model}
+      single_page_html:
+        one: Displaying 1-1 of 1 %{model}
+        other: Display of %{count} %{model}
+        zero: No entry found

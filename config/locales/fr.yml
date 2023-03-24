@@ -1,0 +1,37 @@
+---
+fr:
+  app_name: Boilerplate
+  errors:
+    messages:
+      unknown: Une erreur inconnue est survenue
+  helpers:
+    filters:
+      active: Activé
+      all: Tous
+      inactive: Désactivé
+    links:
+      activate: Activer
+      add: Ajouter
+      back: Retour
+      cancel: Annuler
+      destroy: Supprimer
+      discard: Désactiver
+      edit: Modifier
+      export: Exporter
+      new: Nouveau
+      search: Rechercher
+    submit:
+      create: Créer
+      submit: Enregistrer
+      update: Modifier
+    titles:
+      edit: Modifier %{model}
+      new: Nouveau %{model}
+      newf: Nouvelle %{model}
+      newm: Nouvel %{model}
+  layouts:
+    application:
+      company_url: https://www.effetmonstre.com
+      emails: Courriels
+    forbidden:
+      not_allowed: Vous n'avez pas accès à cette page.

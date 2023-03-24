@@ -85,3 +85,7 @@ gem "html2haml"
 gem "rubocop"
 gem "rubocop-performance"
 gem "rubocop-rails_config"
+gem "rails-i18n", "~> 7.0.0"
+gem "i18n-tasks"
+gem "translate_enum"
+gem 'draper'
