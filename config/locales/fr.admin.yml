@@ -1,0 +1,15 @@
+---
+fr:
+  admin:
+    layouts:
+      header:
+        login_back: Revenir à %{email}
+        sign_out: Se déconnecter
+      sidebar:
+        change_language: EN
+    shared:
+      discard:
+        confirm_archive: Voulez-vous vraiment archiver <b>%{name}</b> ?
+        confirm_delete: Voulez-vous vraiment supprimer <b>%{name}</b> ?
+        confirm_restore: Voulez-vous vraiment restaurer <b>%{name}</b> ?
+        confirm_title: Êtes-vous sûr?

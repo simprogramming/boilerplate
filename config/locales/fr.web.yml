@@ -1,0 +1,9 @@
+---
+fr:
+  web:
+    layouts:
+      header:
+        change_language: EN
+        profile: Profil
+        sign_in: Se connecter
+        sign_out: Se déconnecter
